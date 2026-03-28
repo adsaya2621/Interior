@@ -11,6 +11,7 @@ img{
 
 .innovation{
     background-image: url('./asserts/home1.png');
+    background-attachment: fixed;
     height: 100vh;
     
 }
@@ -158,6 +159,229 @@ img{
     font-size: 18px;
 }
 
+/*ABOUT*/
+
+.about{
+    /* border: 1px solid red; */
+    margin: 100px 0px;
+    display: grid;
+    grid-template-columns: 42% 40%;
+    justify-content: center;
+    gap: 130px;
+    font-family: verdana;
+}
+.about_img{
+     /* border: 1px solid green; */
+     display: grid;
+     grid-template-columns: 50% 50%;   
+     
+}
+/*FAKE - MEDIA*/
+/*ONE*/
+.fake{
+        /* border: 1px solid green; */
+        display: none;
+}
+
+.fake img{
+       object-fit: cover;
+}
+/*TWO*/
+/* .fake_two{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        display: none;
+}
+
+.fake_two img{
+       object-fit: cover;
+} */
+
+/* .img_one{
+     border: 1px solid red;
+} */
+/* .img2{
+      border: 1px solid red; 
+} */
+.img1{
+      /* border: 1px solid red; */   
+}
+.img2{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 45% 45%;
+}
+.img_two{
+     /* border: 1px solid red; */
+     display: grid;
+     grid-template-columns: 50% 50%;
+    
+}
+.about_content{
+     /* border: 1px solid green; */
+     display: flex;
+     flex-direction: column;
+     gap: 23px;
+}
+.about_content h4{
+   font-size: 19px;
+}
+.about_content h3{
+   font-size: 40px;
+}
+.about_content p{
+    line-height: 25px;
+    color: rgb(149, 146, 146);
+    font-size: 15px;
+}
+.tick{
+    display: flex;
+    gap: 10px;
+}
+.tick p{
+    color: black;
+}
+.discover button{
+    display: flex;
+    gap: 10px;
+    border: #c5a47e;
+     background-color: #c5a47e;
+     color: white;
+     padding: 10px 15px;
+     font-size: 18px;
+    border-radius: 5px;
+}
+
+/* WHAT WE DO*/
+.do{
+     /* border: 1px solid red; */
+    font-family: verdana;
+}
+.do_servies{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+.do_card{
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    gap: 10px;
+}
+.do_card img{
+    object-fit: cover
+}
+.do_servies h4{
+   font-size: 19px;
+}
+.do_servies h3{
+    font-size: 40px;
+}
+.do_servies p{
+     color: rgb(149, 146, 146);
+     padding-top: 25px;
+}
+.card_one{
+    background-image: url('./asserts/home7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+     position: relative;
+  
+}
+.card_one img{
+     /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #67686870;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.text {
+  color: white;
+  font-size: 15px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card_one:hover .overlay {
+    height: 25%;
+  border-radius: 15px;
+}
+.card_two{
+    background-image: url('./asserts/home9.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+    height: 60vh;
+     /* border: 1px solid red; */
+    border-radius: 20px;
+     position: relative;
+  
+}
+.card_two img{
+     /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.card_two:hover .overlay {
+    height: 25%;
+  border-radius: 15px;
+}
+.card_three{
+     background-image: url('./asserts/home10.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    height: 60vh;
+     /* border: 1px solid red; */
+    border-radius: 20px;
+     position: relative;
+  
+}
+.card_three img{
+     /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.card_three:hover .overlay {
+    height: 25%;
+  border-radius: 15px;
+}
+.card_four{
+    background-image: url('./asserts/home11.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+    height: 60vh;
+     /* border: 1px solid red; */
+    border-radius: 20px;
+     position: relative;
+  
+}
+.card_four img{
+     /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.card_four:hover .overlay {
+    height: 25%;
+  border-radius: 15px;
+}
+
+
 /*HOVERING*/
 .buttons_one button:hover{
    background-color: #141b1f;
@@ -175,87 +399,20 @@ img{
 }
 
 /*ABOUT*/
-
-.about{
-    /* border: 1px solid red; */
-    margin: 80px 0px;
-    display: grid;
-    grid-template-columns: 40% 40%;
-    justify-content: center;
-    gap: 150px;
-    font-family: verdana;
+.discover button:hover{
+    background-color: #141b1f;
 }
-
-.about_img{
-     /* border: 1px solid green; */
-     display: grid;
-     grid-template-columns: 50% 50%;
-     gap: 5px;
-}
-
-/* .img_one{
-     border: 1px solid red;
-} */
-
-/* .img2{
-      border: 1px solid red;
-     
-} */
-
-.img1{
-      /* border: 1px solid red; */
-      padding-top: 5px;
-}
-
-.img_two{
-     /* border: 1px solid red; */
-     display: grid;
-     grid-template-columns: 50% 50%;
-     gap: 5px;
-}
-
-
-.about_content{
-     /* border: 1px solid green; */
-     display: flex;
-     flex-direction: column;
-     gap: 23px;
-}
-
-.about_content h4{
-   font-size: 19px;
-}
-
-.about_content h3{
-   font-size: 40px;
-}
-
-.about_content p{
-    line-height: 25px;
-    color: rgb(170, 166, 166);
-}
-
-.tick{
-    display: flex;
-    gap: 10px;
-}
-
-.discover button{
-    display: flex;
-    gap: 10px;
-    border: #c5a47e;
-     background-color: #c5a47e;
-     color: white;
-     padding: 10px 10px;
-     font-size: 18px;
-}
-
 
 
 /*MEDIA QUERIES*/
 /*0 - 426px*/
 @media screen and (min-width: 0px) and (max-width : 426px){
-   
+    /*NAVBAR*/
+    .innovation{
+    background-image: url('./asserts/home1.png');
+    height: 100vh;
+    }
+    
     .two{
         display: none;
     }
@@ -263,7 +420,7 @@ img{
     font-size: 35px;
     }
     .content{
-    margin: 95px 95px 0px 20px;
+    margin: 80px 150px 0px 10px;
     width: 85%;
     }
     .best h4{
@@ -278,16 +435,29 @@ img{
     font-size: 16px;
     }
 
-    /*SECTION - 2*/
-    .about_img{
-        gr
+    /*ABOUT*/
+    .about{
+        grid-template-columns: 90%;
+        gap: 50px;
     }
+    .about_img{
+        display: none;
+    }
+    .fake{
+        display: block;
+        border: #141b1f;
+    }
+  
+    
+    
+   
+    
     
 }
 
 /*426px - 768px*/
 @media screen and (min-width: 426px) and (max-width: 768px){
-   
+   /*NAVBAR*/
     .two{
         display: none;
     }
@@ -308,10 +478,22 @@ img{
     line-height: 28px;
     font-size: 16px;
     }
-    
+
+     /*ABOUT*/
+    .about{
+        grid-template-columns: 90%;
+        gap: 50px;
+    }
+    .about_img{
+        display: none;
+    }
+    .fake{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
+    /*NAVBAR*/
     .one{
     padding: 10px 0px;
     }
@@ -339,6 +521,26 @@ img{
     .best p{
         font-size: 18px;
     }
+    
+       /*ABOUT*/
+    .about{
+        grid-template-columns: 45% 45%;
+        gap: 50px;
+    }
+    .about_content{
+        gap: 15px;
+    }
+    .about h3{
+        font-size: 25px;
+    }
+    .about h4{
+        font-size: 15px;
+    }
+    .about_content p{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    
     
 }
 
