@@ -270,7 +270,7 @@ img{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: center;
-    gap: 10px;
+    gap: 35px;
 }
 .do_card img{
     object-fit: cover
