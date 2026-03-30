@@ -510,6 +510,90 @@ border-radius: 10px;
     font-size: 13px;
 }
 
+/*LAST*/
+.last{
+/* border: 1px solid red; */
+display: grid;
+grid-template-columns: 25% 15% 15% 20%;
+justify-content: center;
+background-color: #281a0a;
+padding: 100px 0px;
+font-family: verdana;
+color: white;
+gap: 70px;
+}
+.last_content{
+/* border: 1px solid green; */
+}
+.logo_one img{
+   width: 150px;
+   height: 50px;
+}
+.last_para{
+    line-height: 25px;
+}
+/* .followers{
+   
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+} */
+.one_up{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.last_content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.last_quick{
+    /* border: 1px solid red; */
+        line-height: 45px;
+}
+.last_quick p{
+    font-size: 17px;
+}
+.last_sub{
+    line-height: 30px;
+}
+.last_sub p{
+    padding-top: 20px;
+}
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+}
+.Subscribe input{
+   width: 300px;
+   padding: 15px 10px;
+}
+.Subscribe button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #5a3d1b;
+    border: #5a3d1b;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.icons{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 15px;
+}
+.icons span{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+       background-color: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
 /*HOVERING*/
 .buttons_one button:hover{
    background-color: #141b1f;
@@ -535,6 +619,12 @@ border-radius: 10px;
 .video_content button:hover{
     background-color: #5a3d1b;
 }
+
+/*LAST*/
+.Subscribe button:hover{
+    background-color: #141b1f;
+}
+
 
 
 /*MEDIA QUERIES*/
