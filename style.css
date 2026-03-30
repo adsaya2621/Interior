@@ -435,7 +435,13 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 15px;
+}
+.client_head h3{
+    font-size: 40px;
+}
+.client_head p{
+    padding-top: 10px;
 }
 .owl-item {width: 128.906px; margin-right: 10px; background:rgba(222, 214, 214, 0.31); }
 
@@ -457,11 +463,14 @@ img{
 .clients_content{
     /* border: 1px solid green; */
 box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;    border-radius: 10px;
-padding: 20px 20px;
+padding: 15px 15px;
  display: flex;
  flex-direction: column;
 gap: 8px;
 border-radius: 10px;
+}
+.client_head p{
+    color: rgb(123, 121, 121);
 }
 .up{
         /* border: 1px solid red; */
@@ -472,9 +481,16 @@ border-radius: 10px;
       /* border: 1px solid red; */
         display: flex;
         gap: 15px;
+         padding-top: 10px;
 }
 .up_name{
-    padding: 10px 0px;
+    /* padding-top: 5px; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.up_name p{
+    font-size: 10px;
 }
 .up_dp p{
     font-size: 15px;
@@ -489,6 +505,9 @@ border-radius: 10px;
 .low p{
     font-size: 13px;
     color: rgb(123, 121, 121);
+}
+.low span{
+    font-size: 13px;
 }
 
 /*HOVERING*/
@@ -581,7 +600,22 @@ border-radius: 10px;
    .video_content h3{
      font-size: 25px;
 }
-    
+
+/*CLIENT*/
+    .client{
+        justify-content: space-around;
+    }
+.clients{
+    grid-template-columns: 90%;
+}
+.up{
+        gap: 100px;
+}
+.up_name p{
+    font-size: 11px;
+    padding-top: 5px;
+}
+
     
    
     
@@ -643,6 +677,20 @@ border-radius: 10px;
    .video_content h3{
      font-size: 30px;
     }
+
+    /*CLIENT*/
+    .client{
+        justify-content: space-around;
+    }
+.clients{
+    grid-template-columns: 90%;
+}
+.up{
+      gap: 180px;
+}
+
+
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -728,6 +776,26 @@ border-radius: 10px;
    .video_content h3{
      font-size: 34px;
     }
+
+    /*CLIENT*/
+    .client{
+        justify-content: space-around;
+    }
+.clients{
+    grid-template-columns: 32% 32% 32%;
+    gap: 10px;
+}
+.up{
+        gap: 50px;
+}
+.up_name p{
+    font-size: 10px;
+    padding-top: 5px;
+}
+.low p{
+    font-size: 11px;
+}
+
     
 }
 
